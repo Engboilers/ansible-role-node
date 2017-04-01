@@ -22,13 +22,13 @@ Global NPM packages you would like to make sure are installed.
 
 ## Dependencies
 
-  - `engboilers.homebrew`
+  - `Engboilers.homebrew`
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: engboilers.node, node_execute: true }
+        - { role: Engboilers.node, node_execute: true }
 
 ## License
 
