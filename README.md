@@ -1,6 +1,6 @@
 # Ansible Role: Node
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-node.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-node)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-node.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-node)
 
 Installs node and global npm packages.
 
@@ -22,13 +22,13 @@ Global NPM packages you would like to make sure are installed.
 
 ## Dependencies
 
-  - `kadaan.homebrew`
+  - `engboilers.homebrew`
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.node, node_execute: true }
+        - { role: engboilers.node, node_execute: true }
 
 ## License
 
